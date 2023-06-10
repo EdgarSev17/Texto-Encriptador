@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <title>Encriptador de texto</title>
+    
+</head>
+<body>
+    <header>
+        <img class="logo-alura" src="assets/Logo alura.png" alt="Logo de alura" >
+    </header>
+    <main>
+        <section>
+            <textarea class="area-texto"  cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion"> Solo letras minusculas y sin acentos</h6>
+                
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="area-2">
+            <textarea class="area_texto_encriptado" id="texto"  cols="20" rows="10" ></textarea>
+            <div>
+                
+                <button class="btn-copiar" type="button" onclick="copiar()">Copiar</button>
+            </div>
+            <span id="message"></span>
+        </section>
+
+        <section class="footer">
+            <div class="rodape">
+                
+               
+                <div class="redes-sociales-footer">
+                    <ul >
+                        <li class="github"><a href="https://github.com/EdgarSev17"><i class="fa  fa-github" aria-hidden="true" ></i> </a></li>
+                        <li class="linkedin"><a href="https://www.linkedin.com/in/edgar-sevilla-b85788259?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bm7nCEIpvQ%2F60jV3p13tvpA%3D%3D"> <i class="fa fa-linkedin"  aria-hidden="true"></i> </a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/edgar_sevilla17/" > <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                        <li class="whatsapp"><a href="https://wa.me/+50496888852" > <i class="fa fa-whatsapp" aria-hidden="true"></i>  </a></li>
+                    </ul>
+            </div>
+            </div>
+    </section>
+
+
+    </main>
+
+<script src="/script.js"></script>
+    
+</body>
+</html>

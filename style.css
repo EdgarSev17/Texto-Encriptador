@@ -1,0 +1,368 @@
+*{
+    background: #f3f5fC;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px ;
+    line-height: 150%;
+    
+
+    
+
+}
+
+.logo-alura{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.area-texto{
+    border: none;
+    width:660px;
+    border-radius: 15px;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color:#0a3871}
+.area-texto:focus {
+    outline: none;
+}
+.area_texto_encriptado{
+    background-color: white;
+    background-image: url(./assets/Mi\ proyecto.png);
+    background-repeat: no-repeat;
+    border: none;
+    height: 504px;
+    width: 369px;
+    margin-top: 18px;
+    margin-left: 14px;
+    background-repeat: no-repeat;
+}
+
+.area-2{
+background: white;
+height: 700px;
+width: 400px;
+margin-left: 150px;
+top: 10%;
+border-radius: 32px;
+margin-top: -20px;
+
+}
+.imagen-buscador{
+    
+    height: 350px;
+    width: 400x;
+
+}
+/*
+.titulo-area-2{
+    display: flex;
+background:white ;
+width: 400px;
+height: 58px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #343A40;
+
+}
+.parrafo{
+
+width: 400px;
+ background:white;
+font-family: "Montserrat";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #495057;
+
+}
+*/
+
+.area_texto_encriptado:focus{
+    outline: none;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.botones{
+   display: flex;
+    margin-top: 18px;
+  
+   
+}
+
+.btn-encriptar{
+
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #f3f5fC;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover{
+    transition: all 1.5s;
+    background: linear-gradient(to right, #000046, #1cb5e0);
+    transform:scale(1.1);
+}
+
+.btn-desencriptar{
+    background-color: #D8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 50px;
+}
+
+.btn-desencriptar:hover{
+    transition: all 1.5s;
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    transform:scale(1.1);
+}
+
+.btn-copiar{
+    background-color: #D8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    position: absolute;
+    height: 67px;
+    width: 336px;
+    top: 40%;
+    margin-left: 32px;
+    margin-top: 448px;
+}
+
+.btn-copiar:hover{
+    transition: all 1.5s;
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    transform:scale(1.1);
+}
+
+
+#message {
+    background: linear-gradient(to right, #000000, #434343);
+    color: #f3f5fC;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6rem;
+  
+
+}
+
+/* footer */
+section.footer {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    
+}
+
+section.footer div.rodape {
+    
+    display: flex;
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+.redes-sociales-footer {
+   
+    top:50%;
+    left:50%;
+    transform: (-50%,-50%);
+}
+.redes-sociales-footer ul {
+    flex-direction: column;
+    list-style: none;
+}
+
+.redes-sociales-footer  ul li {
+    width: 75px;
+    height: 75px;
+     line-height: 75px;
+     margin: 0 10px;
+     text-align: center;
+     cursor: pointer;
+     border-radius: 30%;
+     border: 5px solid #00050c;
+     float: left;
+  
+
+}
+
+.redes-sociales-footer ul li .fa {
+    color: #00050c;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    
+
+}
+
+.redes-sociales-footer ul li:hover.github{
+    border: 5px solid #171515 ;
+    box-shadow: 0 0 15px #171515 ;
+    transition: all 0.3s ease;
+    transform: scale(1.3);
+    
+
+}
+
+.redes-sociales-footer ul li:hover .fa-github{
+    color: #171515 ;
+    text-shadow: 0 0 15px #171515 ;
+    transition: all 0.3s ease;
+    transform: scale(3.5);
+    
+
+}
+
+.redes-sociales-footer ul li:hover.linkedin{
+    border: 5px solid #0e76a898;
+    box-shadow: 0 0 15px #0e76a8;
+    transition: all 0.3s ease;
+    transform: scale(1.3);
+    
+}
+
+.redes-sociales-footer ul li:hover .fa-linkedin{
+    color: #0e76a8;
+    text-shadow: 0 0 15px #0e76a8;
+    transition: all 0.5s ease;
+    transform: scale(3.5);
+
+}
+
+.redes-sociales-footer ul li:hover.instagram{
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+    transform: scale(1.3);
+   
+
+}
+
+.redes-sociales-footer ul li:hover .fa-instagram{
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+    transform: scale(3.5);
+
+}
+
+.redes-sociales-footer ul li:hover.whatsapp{
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+    transform: scale(1.3);
+    
+
+}
+
+.redes-sociales-footer ul li:hover .fa-whatsapp{
+    color: #4dc247;;
+    text-shadow: 0 0 15px #4dc247;;
+    transition: all 0.5s ease;
+    transform: scale(3.5);
+
+}
+
+@media (max-width:57.5em) {
+    *{
+        font-size: 25px;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        margin-left: 35px;
+
+    }
+    
+    .logo-alura{
+        width: 10%;
+    }
+    .area-texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+
+    .btn-encriptar, .btn-desencriptar{
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        font-size: 17px;
+        margin-top: 4px;
+        width: 200px;
+
+    }
+    .informacion{
+        margin-top: -215px;
+    }
+
+    .btn-encriptar:hover, .btn-desencriptar:hover{
+        margin: 0.3%;
+        width: 47%;
+        padding: 1.8%;
+        
+    }
+
+    .area_texto_encriptado{
+        
+       margin-left: -570%;
+        top:60%;
+        height: 15%;
+        width: 327px;
+        border-radius: 32px;
+        padding: 32px;
+
+    }
+
+    .area-2{
+        margin-left: -142%;
+        height: 249px;
+        width: 390px;
+        margin-top: 620px;
+
+    
+    }
+
+    .btn-copiar{
+        margin-top: 690px;
+
+    }
+    .redes-sociales-footer{
+        margin-left: -97px;
+        margin-top: -86px;
+    }
+    
+}
